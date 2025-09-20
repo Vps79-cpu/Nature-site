@@ -1,1 +1,56 @@
-<
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nature Photos — Demo</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;background:#f8fafc;color:#0f172a}
+    .container{max-width:900px;margin:32px auto;padding:16px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+    h1{font-size:20px;margin:0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:14px}
+    .card{background:#fff;border-radius:8px;padding:8px;box-shadow:0 1px 4px rgba(2,6,23,0.06);overflow:hidden}
+    img{width:100%;height:160px;object-fit:cover;border-radius:6px}
+    a.download{display:inline-block;margin-top:10px;padding:8px 12px;background:#0f172a;color:#fff;border-radius:6px;text-decoration:none}
+    footer{margin-top:20px;font-size:13px;color:#475569;text-align:center}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Nature Photos — Free Download</h1>
+      <small>Vps79-cpu / Nature-site</small>
+    </header>
+
+    <p>Welcome — these are sample nature images. Click the download links to save them.</p>
+
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=70" alt="Nature 1">
+        <a class="download" href="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=70" download>Download</a>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=70" alt="Nature 2">
+        <a class="download" href="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=70" download>Download</a>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1493244040629-496f6d136cc3?auto=format&fit=crop&w=1200&q=70" alt="Nature 3">
+        <a class="download" href="https://images.unsplash.com/photo-1493244040629-496f6d136cc3?auto=format&fit=crop&w=1200&q=70" download>Download</a>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=70" alt="Nature 4">
+        <a class="download" href="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=70" download>Download</a>
+      </div>
+    </div>
+
+    <footer>
+      This demo uses remote Unsplash images. To use your AI images, upload them to the repo and update the &lt;img&gt; paths.
+    </footer>
+  </div>
+</body>
+</html>
